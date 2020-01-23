@@ -9,7 +9,7 @@ namespace CS321_W2D2_StudentAPI.Services
         IEnumerable<Student> GetAll();
         Student Get(int id);
         Student Add(Student student);
-        Student Update(Student student);
+        Student Update(Student updatedStudent);
         void Remove(Student student);
     }
 }
